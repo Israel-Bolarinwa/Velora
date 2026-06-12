@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VELORA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/image.png">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Images/image.png" alt="velora logo">
+            <h2>VELORA</h2>
+        </div>
+        <ul class="nav-links">
+            <li> <a href="#home">Home</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#menu">Menu</a></li>
+            <li> <a href="#gallery">Gallery</a></li>
+            <li> <a href="#reservation">Reservation</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <li> <a href="#reservation" class="book-btn">Book a Table</a></li>
+        </ul>
+    </nav>
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>
+                Elevated <br>
+                Dining <br>
+                Experience
+            </h1>
+            <p>Fine dining, handcrafted flavors, and unforgetable moments
+                in an atmosphere of timeless elegance
+            </p>
+            <div class="hero-buttons">
+                <a href="#reservation" class="btn-primary">Book a Table</a>
+                <a href="#menu" class="btn-secondary">Explore Menu</a>
+            </div>
+            <span class="hero-tag">Serving excellence since 2012</span>
+        </div>
+        <div class="hero-image">
+            <img src="Images/image1.png" alt="luxury dining">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="Images/image2.png" alt="velora resturant interior">
+        </div>
+        <div class="about-content">
+            <span class="section-tag">OUR STORY</span>
+            <h2>Where passion meets culinary excellence</h2>
+            <p> Since 2012, velora has been dedicated to creating exceptional
+                dining experiences where exquisite cuisine, warm hospitality, and
+                timeless elegance come together, every dish is carefully crafted, every
+                detail thoughtfully designed, and every visit made unforgettable serving 
+                different meals across the world,
+            </p>
+            <button class="about-btn" id="learnmorebtn">Learn More</button>
+            <p class="hidden-text">Velora isn't just a resturant. It's an an experience.</p>
+            <p class="hidden-text">Every dish tells a story, crafted with taste and soul </p>
+            <p class="hidden-text">From the first bite to the last sip, excellence shows.</p>
+            <p class="hidden-text">The ambiance whispers class while the food shouts flavor</p>
+            <p class="hidden-text">This is where food meets art, and guests become family</p>
+            <p class="hidden-text">All thanks to the vision of Israel Bolarinwa.</p>
+            <p class="hidden-text">He built more than a resturant. He built a standard</p>
+            <p class="hidden-text">Velora sets the bar, then raises it again</p>
+            <p class="hidden-text">If you haven't dined here, you're missing the unique taste of prestige.</p>
+            <p class="hidden-text">Velora - where every meal feels like a celebration.</p>
+        </div>
+    </section>
+    <section class="stats">
+        <div class="stat">
+            <h3>12+</h3>
+            <span>Years of Excellence </span>
+        </div>
+        <div class="stat">
+            <h3>5000+</h3>
+            <span>Happy Guests</span>
+        </div>
+        <div class="stat">
+            <h3>50+</h3>
+            <span>Signature Dishes</span>
+        </div>
+    </section>
+    <section class="menu-section" id="menu">
+        <div class="menu-header">
+            <span class="section-tag">SIGNATURE MENU</span>
+            <h2>A curated journey of flavor</h2>
+            <p>Explore a selection of our most celebrated creations, thoughtfully
+                prepared to deliver an unforgettable dining Experience.
+            </p>
+        </div>
+        <div class="featured-dish">
+            <div class="featured-image">
+                <img src="Images/image3.png" alt="truffle filet mignon">
+            </div>
+            <div class="featured-content">
+                <span class="featured-tag">CHEF'S SIGNATURE</span>
+                <h3>Truffle Filet Mignon</h3>
+                <p>A perfectly seared premium cut finished wuth black truffle butter and seasonal
+                    accompaniments
+                </p>
+                <button class="menu-btn" id="menuToggle">Veiw full menu</button>
+                <div class="menu-modal" id="menuModal">
+
+    <div class="menu-modal-content">
+
+        <span class="close-menu" id="closeMenu">
+            &times;
+        </span>
+
+        <span class="section-tag">
+            FULL MENU
+        </span>
+
+        <h2>Velora Culinary Collection</h2>
+
+        <div class="menu-category">
+
+            <h3>Starters</h3>
+
+            <p>Truffle Mushroom Soup</p>
+            <p>Burrata Salad</p>
+            <p>Crispy Calamari</p>
+
+        </div>
+
+        <div class="menu-category">
+
+            <h3>Main Courses</h3>
+            <p>Truffle Filet Mignon</p>
+            <p>Lobster Saffron Risotto</p>
+            <p>Herb Crusted Salmon</p>
+            <p>Seafood Linguine</p>
+        </div>
+        <div class="menu-category">
+            <h3>Desserts</h3>
+            <p>Chocolate Lava Cake</p>
+            <p>Signature Cheesecake</p>
+            <p>Velora Gold Delight</p>
+        </div>
+        <div class="menu-category">
+
+            <h3>Signature Cocktails</h3>
+            <p>Velora Gold Martini</p>
+            <p>Midnight Velvet</p>
+            <p>Royal Citrus Elixir</p>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+        <div class="dish-grid">
+        <div class="dish-card">
+            <h4>Lobster Risotto</h4>
+            <p>Rich, creamy risotto infused with fresh lobster</p>
+        </div>
+        <div class="dish-card">
+            <h4>Velora Signature Steak</h4>
+            <p>Expertly grilled and finished with house flavors</p>
+        </div>
+        <div class="dish-card">
+            <h4>Seafood Linguine</h4>
+            <p>Fresh sea food tossed in a delicate sause</p>
+        </div>
+        <div class="dish-card">
+            <h4>Herb Crusted Salmon</h4>
+            <p>Perfectly baked with aromatic herbs</p>
+        </div>
+        <div class="dish-card">
+            <h4>Wild Mushroom Pasta</h4>
+            <p>Earthly flavors paired withsilky pasta</p>
+        </div>
+        <div class="dish-card">
+            <h4>Signature Dessert</h4>
+            <p>A sweet finale crafted to perfection</p>
+        </div>
+        </div>
+        <div class="menu-footer">
+            <p>
+                Discover More Culinary Masterpieces
+            </p>
+        </div>
+    </section>
+    <section class="gallery-section" id="gallery">
+        <div class="gallery-header">
+            <span class="section-tag">GALLERY</span>
+            <h2>
+                Moments Worth Savoring
+            </h2>
+            <p>
+                Step into the world of Velora, where every detail, every dish, and every gathering
+                is cafted to create unforgettable memories.
+            </p>
+            <span class="gallery-year">2012-Presnt</span>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item
+            gallery-item-large">
+                <img src="Images/image4.png" alt="luxury interior">
+            interior</div>
+            <div class="gallery-item
+            gallery-item-tall">
+                <img src="Images/image5.png" alt="chef plating">
+            chef</div>
+            <div class="gallery-item
+            gallery-item-small">
+                <img src="Images/image6.png" alt="lobster saffron risotto">
+            risotto</div>
+            <div class="gallery-item
+            gallery-item-small">
+                <img src="Images/image7.png" alt="guests dining">
+            guests</div>
+            <div class="gallery-item
+            gallery-item-small">
+                <img src="Images/image8.png" alt="cocktail">
+            cocktail</div>
+            <div class="gallery-item
+            gallery-item-wide">
+                <img src="Images/image9.png" alt="Dessert">
+            dessert</div>
+        </div>
+    </section>
+    <section class="reservation-section" id="reservation">
+        <div class="reservation-header">
+            <span class="section-tag">RESERVATIONS</span>
+            <h2>Reserve Your Table</h2>
+            <p>Experience fine dining at Velora. Reserve your table and allow us to create an
+                unforgettable moment of exceptional cuisine and timeless elegance.
+            </p>
+            <button id="reservationtoggle" class="reservation-btn">Reserve Your Experience</button>
+        </div>
+        <div class="reservation-form-container" id="reservationform">
+            <form class="reservation-form" id="reservation form">
+                <input type="text" placeholder="Full Name" id="name" required>
+                <input type="email" placeholder="Email Address" id="email" required>
+                <input type="tel" placeholder="Phone Number" id="phone" required>
+                <input type="date" id="date" required>
+                <input type="time" id="time" required>
+                <select required >
+                    <option value="" id="guests" >  Selcet Number of Guests</option>
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6 Guests</option>
+                </select>
+                <button type="submit" class="submit-btn">Reserve Table</button>
+            </form>
+        </div>
+    </section> 
+<script>
+
+const reservationBtn =
+document.getElementById("reservationtoggle");
+
+const reservationForm =
+document.getElementById("reservationform");
+
+reservationBtn.addEventListener("click", () => {
+
+    reservationForm.classList.toggle("active");
+
+    if(reservationForm.classList.contains("active")){
+
+        reservationBtn.textContent =
+        "Hide Reservation Form";
+
+    }else{
+
+        reservationBtn.textContent =
+        "Reserve Your Experience";
+
+    }
+
+});
+</script>
+<section class="contact-section" id="contact">
+    <div class="contact-content">
+        <span class="section-tag">CONTACT</span>
+        <h2>Let's Create Your Perfect Evening</h2>
+        <p>Whether you're planning a romantic dinner, celebrating a specail occasion, or simply
+            have a question, our team is ready to assiast and make every moment unforgetable.
+        </p>
+        <div class="contact-cards">
+            <div class="contact-card">
+                <h4>📍Location</h4>
+                <span>Victoria Island,Lagos</span>
+            </div>
+            <div class="contact-card">
+                <h4>📞Phone</h4>
+                <span>+234 xxx xxx xxxx</span>
+            </div>
+            <div class="contact-card">
+                <h4>✉️Email</h4>
+                <span>reservations@velora.com</span>
+            </div>
+            <div class="contact-card">
+                <h4>🕐Opening Hours</h4>
+                <span>Mon - Sun | 9AM - 11PM</span>
+            </div>
+        </div>
+    </div>
+    <div class="location-card">
+        <div class="location-logo">
+            V
+        </div>
+        <h3>VELORA</h3>
+        <p>Victoria Island Lagos, Nigeria</p>
+        <span>Open Daily • 9AM - 11PM</span>
+        <a href="#" class="direction-btn" id="directionBtn">Get Directions →</a>
+        <p class="location-message" id="locationmessage">
+            📍Location coming soon <br>
+            our flagship location will be announced soon
+        </p>
+    </div>
+</section>
+<script src="script.js"></script>
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+              <h3>VELORA</h3>
+        <p>Elevated Dining Experience</p>
+        <span>Fine dining, handcrafted flavors, and unforgettable moments in an atmosphere
+            of timeless elegance. </span>
+        </div>
+    <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#reservation">Reservation</a>
+        <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>Unveiling location soon...</p>
+        <p>reservations@velora.com</p>
+        <p>Open Daily • 9AM - 11PM</p>
+    <div class="socail-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Velora. Crafted With Elegance</p>
+  </div>
+</footer>
+</body>
+</html>
